@@ -1,7 +1,7 @@
 package hu.bme.mit.train.controller;
-
+// Editing.
 import hu.bme.mit.train.interfaces.TrainController;
-
+// This comment will cause problems.
 public class TrainControllerImpl implements TrainController {
 
 	private int step = 0;
@@ -41,7 +41,7 @@ public class TrainControllerImpl implements TrainController {
 
 	@Override
 	public void setJoystickPosition(int joystickPosition) {
-		this.step = joystickPosition;		
+		this.step = -1 * joystickPosition;
 	}
 
 }
