@@ -1,7 +1,7 @@
 package hu.bme.mit.train.controller;
-
+// Editing.
 import hu.bme.mit.train.interfaces.TrainController;
-
+// More editing.
 public class TrainControllerImpl implements TrainController {
 
 	private int step = 0;
