@@ -55,6 +55,4 @@ public class TrainSystemTest {
 		user.overrideJoystickPosition(10);
 		Assert.assertEquals(user.getJoystickPosition(), 10);
 	}
-
-	
 }
